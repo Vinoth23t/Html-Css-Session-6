@@ -1,0 +1,415 @@
+body{
+    margin:0;
+}
+/*header section*/
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:70px;
+  position:fixed;
+  width:100%;
+  background-color: white;
+  top:0;
+  border: 0.10px solid rgb(221, 220, 220);
+  left:0;
+  font-weight: 600px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-right:130px;
+    text-align:right;
+
+}
+
+.logo-img{
+    padding-left: 100px;
+    width:100px;
+}
+
+
+.nav-text{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight:600px;
+    color: #666;
+}
+.nav-lines{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*end of header*/
+
+/*start of investors block*/
+
+.investers-first{
+    margin-top:80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.investers-img{
+    margin-top: 150px;
+    height:50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.investers-head{
+    padding-top: 20px;
+    font-family:sans-serif;
+    font-size: 33px;
+    color:#424242;
+    text-align: center;
+}
+
+.investers-body{
+    color: #424242;
+    font-family: sans-serif;
+    text-align: center;
+    font-size:19px;
+}
+
+.button{
+    background-color:#387ed1;
+    color:white;
+    padding: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: white;
+    font-size:18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+.button:hover{
+    background-color: black;
+}
+
+/*end of investers block*/
+
+/*start of Achievements block*/
+
+.Achievements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:200px;
+}
+
+.Achievements-img{
+    height: 300px;
+    padding-left: 80px;
+}
+
+.Achievements-textd{
+    padding-right: 80px;
+}
+
+.Achievements-list{
+    display: flex;
+}
+
+.Achievements-head{
+    font-family:sans-serif;
+    font-size: 33px;
+    color:#424242;
+}
+
+.Achievements-body{
+    color: #424242;
+    font-family: sans-serif;
+    font-size:19px;
+    line-height: 30px;
+}
+
+.list-item{
+    color: #424242;
+    font-family: sans-serif;
+    font-size:17px;
+    line-height: 20px;
+}
+
+.Achievements-link{
+    padding-top: 10px;
+}
+
+/*end of Achievements*/
+
+/*start of Ecosystem*/
+
+.Ecosystem{
+    margin-top: 100px;
+}
+
+.Ecosystem-head{
+    font-family:sans-serif;
+    font-size: 33px;
+    color:#424242;
+    text-align: center;
+}
+
+.Ecosystem-body{
+    color: #424242;
+    font-family: sans-serif;
+    font-size:19px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.Ecosystem-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productsd{
+    margin-top:10px;
+    text-align: center;
+}
+
+.products{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:#387ed1;
+    font-size: 17px;
+    font-weight:500px;
+}
+.products:hover{
+    color:black;
+}
+
+/*end of eco system*/
+/*start of pricing*/
+
+
+.Pricing{
+    display: flex;
+    margin-top:100px;
+    justify-content: space-evenly;
+}
+
+.Pricing-head{
+    font-family:sans-serif;
+    font-size: 33px;
+    color:#424242;
+    margin-top: 100px;
+}
+
+.Pricing-body{
+    color: #424242;
+    font-family: sans-serif;
+    font-size:19px;
+    line-height: 30px;
+}
+
+.Pricing-link{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:#387ed1;
+    font-size: 17px;
+    font-weight:500px;
+}
+.Pricing-link:hover{
+    color: black;
+}
+
+
+/*end*/
+
+/*Varsity*/
+.varsity{
+    display: flex;
+    margin-top:100px;
+    justify-content: space-evenly;
+}
+
+.varsity-head1{
+    font-family:sans-serif;
+    font-size: 33px;
+    color:#424242;
+}
+
+.varsity-body1{
+    color: #424242;
+    font-family: sans-serif;
+    font-size:19px;
+    line-height: 30px;
+}
+
+.varsity-link1{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:#387ed1;
+    font-size: 17px;
+    font-weight:500px;
+}
+.varsity-link1:hover{
+    color:black
+}
+
+.varsity-body2{
+    color: #424242;
+    font-family: sans-serif;
+    font-size:19px;
+    line-height: 30px;
+}
+
+.varsity-link2{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:#387ed1;
+    font-size: 17px;
+    font-weight:500px;
+}
+.varsity-link2:hover{
+    color:black
+}
+
+/*end*/
+
+/*start of account*/
+.account{
+    margin-top: 100px;
+}
+
+.account-head{
+    font-family:sans-serif;
+    font-size: 40px;
+    color:#424242;
+    text-align: center;
+}
+
+.account-body{
+    color: #424242;
+    font-family: sans-serif;
+    font-size:19px;
+    text-align: center;
+    line-height: 30px;
+}
+/*end*/
+
+/*footer*/
+
+.footer-logo{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo2{
+    padding-left: 0px;
+    width:140px;
+    padding-top: 10px;
+}
+
+.iconsd{
+    display: flex;
+    justify-content:left;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.icons{
+    height:20px;
+
+}
+
+.icons:hover{
+    background-color: #387ed1 ;
+}
+
+.copyright{
+    color: #424242;
+    font-family: sans-serif;
+    font-size:14px;
+    line-height: 20px;
+}
+
+.company-head{
+    font-family:sans-serif;
+    font-size: 18px;
+    color:#424242;
+    padding-left: 39px;
+}
+
+.company-list{
+    font-family:sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color:#424242;
+    font-weight: 600px;
+}
+
+.support-head{
+    font-family:sans-serif;
+    font-size: 18px;
+    color:#424242;
+    padding-left: 39px;
+}
+
+.support-list{
+    font-family:sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color:#424242;
+}
+
+.account-head{
+    font-family:sans-serif;
+    font-size: 18px;
+    color:#424242;
+    padding-left: 39px;
+}
+
+.account-list{
+    font-family:sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color:#424242;
+}
+
+.footer-textd{
+    margin-top:80px;
+    text-align: left;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1100px;
+}
+
+.footer-text{
+    font-family:sans-serif;
+    font-size: 11px;
+    color:#9b9b9b;
+    line-height:22px;
+}
+
+.footer-text-link{
+    text-decoration: none;
+}
+
+.footer-linksd{
+    display:flex;
+    justify-content: space-evenly;
+    font-family:sans-serif;
+    font-size: 15px;
+    color:#9b9b9b;
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.footer{
+    background-color:#fafaf5;
+}
